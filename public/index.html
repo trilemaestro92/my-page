@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Sonsie+One|Oswald:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <title>Tri's Portfolio</title>
+</head>
+
+<body>
+    <div class="sticky">
+        <div class="head">
+
+            <div class="pic one">
+                <img class="tri" src="assets/Tri.jpeg" alt="profile">
+            </div>
+
+
+            <header>
+                <h1>Tri Nguyen</h1>
+                <h2>Web Developer</h2>
+            </header>
+            <!--Social Links-->
+            <div class="links">
+                <a href="https://github.com/trilemaestro92" class="icon git" target="_blank">
+                    <img class="social" src="assets/github.png" alt="github">
+                </a>
+
+                <a href="#" class="icon over">
+                    <img class="social" src="assets/overflow.png" alt="overflow">
+                </a>
+
+                <a href="https://www.linkedin.com/in/tri-nguyen-a31b5b69/" class="icon linked" target="_blank">
+                    <img class="social" src="assets/linkedin.png" alt="linkedin">
+                </a>
+
+                <a href="" onclick="copyEmail(event)" onmouseover="myEmail(event)" onmouseout="removeEmail(event)"
+                    class="icon email">
+                    <img class="social" src="assets/envelope.png" alt="gmail">
+                </a>
+                <span id="gmail" class="iconText">Trihuynguyen14@gmail.com</span>
+            </div>
+        </div>
+    </div>
+    <div id="alert1" class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Copied <strong>Trihuynguyen14@gmail.com</strong> to clipboard.
+    </div>
+
+    <!-- <div class='hex'>
+        <div class="hex2">
+            <div class="hex3">
+                <div>
+                    <img  src="assets/Tri.jpeg" alt="profile">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="bio-info">
+        <div class="pic two">
+            <img class="tri" src="assets/Tri.jpeg" alt="profile">
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <h3 class="bio-heading">About Me</h3>
+                    <p class="about-me">
+                        My name is Tri Nguyen, an eploxer. When I am not functioning as an responsible adult in the
+                        modern world. I spend most of
+                        my time engage in outdoor activities like playing basketball, soccer, or going on walks with my
+                        dog. Outside
+                        of that, I'm always keen in researching ways I can improve my health, mind, and well being.
+                        <br>
+                        <br> I got my Bachelor of Business in Marketing from Georgia State University. Looking ahead,
+                        I'd aim to become a full stack web developer, with the ability to utilize my web developing
+                        skills with a strong background in digital marketing to
+                        provide unique insight on how to design and implement innovative applications for clients.
+                    </p>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="bio-heading">Skills</h3>
+                    <br>
+                    <p class="about-me">
+                        Javascript/HTML5/CSS3
+                        <br>
+                        jQuery
+                        <br>
+                        Node.Js/Express/APIs
+                        <br>
+                        SQL/Mongo
+                        <br>
+                        GitHub
+                    </p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+
+
+    <main>
+
+        <!--Profile Info-->
+
+
+        <a href="https://todo-sql-socket.herokuapp.com/" target="_blank" class="box project1">
+            <h3 class="box-header">
+                Todo-List (Socket.io)
+
+            </h3>
+
+        </a>
+
+        <a href="https://yelpper.herokuapp.com/" target="_blank" class="box project2">
+            <h3 class="box-header">
+                Yelp Clone
+
+            </h3>
+
+        </a>
+
+        <a href="https://facebell.herokuapp.com/" class="box project3">
+            <h3 class="box-header">
+                Face Bell
+            </h3>
+
+        </a>
+
+        <a href="#" class="box project4">
+            <h3 class="box-header">
+                Upcoming Project .....
+            </h3>
+
+        </a>
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        function myEmail(event) {
+            document.getElementById("gmail").style.visibility = "visible";
+        }
+        function removeEmail(event) {
+            document.getElementById("gmail").style.visibility = "hidden";
+        }
+
+        function copyEmail(event) {
+            event.preventDefault();
+            let selection = window.getSelection();
+            let txt = document.getElementById("gmail");
+            let range = document.createRange();
+            range.selectNodeContents(txt);
+            selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand("copy");
+            document.getElementById("alert1").style.display = 'block';
+        }
+
+        $('.carousel').carousel({
+            interval: 0
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Sonsie+One|Oswald:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="../font/Bit_Light10__sRB_/stylesheet.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/honey.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <title>Tri Nguyen</title>
+</head>
+
+<body>
+    <div class="sticky">
+        <div class="head">
+
+            <div class="pic one">
+                <img class="tri" src="assets/Tri.jpeg" alt="profile">
+            </div>
+            <header>
+                <h1>Tri Nguyen</h1>
+                <h2>Web Developer.</h2>
+            </header>
+            <!--Social Links-->
+            <div class="links">
+                <a href="https://github.com/trilemaestro92" class="icon git" target="_blank">
+                    <i class="fab fa-github-square social" title="trilemaestro92's Github Profile"></i>
+                </a>
+
+                <a href="https://dev.to/trilemaestro92" class='icon over' target="_blank">
+                    <i class="fab fa-dev social" title="trilemaestro92's DEV Profile"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/tri-nguyen-a31b5b69/" class="icon linked" target="_blank">
+                    <i class="fab fa-linkedin social" title="Tri's Linkedin Profile"></i>
+                </a>
+
+                <a href="" onclick="copyEmail(event)" onmouseover="myEmail(event)" onmouseout="removeEmail(event)"
+                    class="icon email">
+                    <i class="fas fa-envelope-square social"></i>
+                    <!-- <img class="social" src="assets/envelope.png" alt="gmail"> -->
+                </a>
+                <span id="gmail" class="iconText">Trihuynguyen14@gmail.com</span>
+            </div>
+        </div>
+    </div>
+    <div id="alert1" class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Copied <strong>Trihuynguyen14@gmail.com</strong> to clipboard.
+    </div>
+
+    <div class="protect">
+        <div class="card">
+            <div class="left">
+                <div class="left-pic">
+                    <img class="pic-av" src="assets/Tri.jpeg" alt="">
+                </div>
+                <div class="left-desc">
+                    <div class="desc-center">
+                        Hello! my name is
+                        <a href="http://yukoki.tumblr.com">Tri Nguyen </a>
+                        a full-stack web developer
+                    </div>
+                </div>
+                <div class="left-link">
+                    <a href="/">
+                        <div class="link1">Link</div>
+                    </a>
+                    <a href="/">
+                        <div class="link1">Archive</div>
+                    </a>
+                    <a href="/">
+                        <div class="link1">Theme</div>
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <div class="top-link" style="width: 560px;">
+                        <div class="top-link-si">
+                            <div class="top-icon">
+                                <span class="fas fa-brain"></span>
+                            </div>
+                            <div class="top-icon">
+                                <span class="fas fa-graduation-cap"></span>
+                            </div>
+                            <div class="top-icon">
+                                <span class="fas fa-user-circle"></span>
+                            </div>
+                        </div>
+                        <div class="gallerynav" id="mygallery-paginate">
+                            <img src="https://66.media.tumblr.com/9610518affcf283c4eb04850039ccdc8/tumblr_inline_nqz1cg0OG41rshr70_540.png"
+                                data-over="https://66.media.tumblr.com/0d36ba0f4cf18340cdb996b752e224cc/tumblr_inline_nqz1cmgXXH1rshr70_540.png"
+                                data-select="https://66.media.tumblr.com/0d36ba0f4cf18340cdb996b752e224cc/tumblr_inline_nqz1cmgXXH1rshr70_540.png"
+                                style="cursor: pointer;">
+
+                        </div>
+                    </div>
+                    <div class="top-title">"I can do this" - me</div>
+                </div>
+                <div id="mygallery" class="stepcarousel">
+                    <div class='belt'>
+                        <div class="panel" style="float: none; position: absolute; left: 0px;">
+                            <div class="htc">about :: Tri</div>
+                            <img class="pic2" src="assets/Tri.jpeg">
+                            <div class="infoBlock">
+                                <div class="blocka">Name: Tri Nguyen</div>
+                                <div class="blockb">Alias: Ben</div>
+                                <div class="blocka">Location: Atlanta</div>
+                                <div class="blockb">Interest: Tech & Video Games</div>
+                                <div class="blocka">Work Status: Looking for work!</div>
+                                <div class="blockb">Nationality: Vietnamese</div>
+                            </div>
+                            <div class="bio">
+                                <div style="margin: 20px;">
+                                    My name is Tri Nguyen, an eploxer. When I am not functioning as an responsible
+                                    adult in
+                                    the
+                                    modern world. I spend most of
+                                    my time engage in outdoor activities like playing basketball, soccer, or walking my
+                                    dog. Outside
+                                    of that, I'm always keen in researching ways I can improve my health, mind, and
+                                    well
+                                    being.
+                                    <br>
+                                    <br> I got my Bachelor of Business in Marketing from Georgia State University.
+                                    Looking
+                                    ahead,
+                                    I aim to become a full stack web developer, utilizing my web
+                                    developing
+                                    skills and a strong background in digital marketing to
+                                    provide unique insight on how to design and implement innovative applications for
+                                    clients.
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="panel" style="float: none; position: absolute; left: 559px;">
+                            <div class="htc">education ::</div>
+                            <div class="faq">
+                                <b>Georgia Tech Coding Bootcamp</b>
+                                <blockquote>
+                                    Full Stack Web Development Bootcamp<br>
+                                    24-week dedicated to design and build website application. Skills learned consisted
+                                    of HTML5, CSS3, JavaScript, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express,
+                                    React.
+                                </blockquote>
+                            </div>
+                            <div class="faq">
+                                <b>Georgia State University </b>
+                                <blockquote>
+                                    Bachelor of Business Marketing
+                                    <br>
+                                    Cummulative GPA: 3.68
+                                </blockquote>
+                            </div>
+
+                        </div>
+                        <div class="panel" style="float: none; position: absolute; left: 1118px;">
+                            <div class="htc">proficient skills :: </div>
+                            <div class='skill'>
+                                HTML, CSS, JavaScript
+                            </div>
+                            <div class='skill blb'>
+                                JQuery
+                            </div>
+                            <div class='skill'>
+                                Node.js/Express/AJAX
+                            </div>
+                            <div class='skill'>
+                                SQL & MySQL
+                            </div>
+                            <div class='skill blb'>
+                                MongoDB & Robo 3T
+                            </div>
+                            <div class='skill'>
+                                React Library
+                            </div>
+                            <div class='skill'>
+                                Socket.io
+                            </div>
+                            <div class='skill blb'>
+                                Google Adwords
+                            </div>
+                            <div class='skill'>
+                                SEO
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div style="position: relative;">
+        <div class="posts">
+            <div class="entry photopost">
+                <div class="hexa">
+                    <div class="hex1">
+                        <div class="hex2">
+                            <div class="im">
+                                <img src="./assets/todo.JPG" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <a href="https://todo-sql-socket.herokuapp.com/" title='herokuapp link' class="hex-title" target="_blank">
+                        Todo-List (Socket.io)
+                    </a>
+                    <br>
+                    <a class='hex-icon' href="https://github.com/trilemaestro92/Todo" target="_blank">
+                        <i class="fab fa-github-alt social" title="Todo github repo"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="entry photopost">
+                <div class="hexa">
+                    <div class="hex1">
+                        <div class="hex2">
+                            <div class="im">
+                                <img src="./assets/yelpclone.JPG" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <a href="https://yelpper.herokuapp.com/" title='herokuapp link' class="hex-title" target="_blank">
+                        Yelper (Yelp Clone) 
+                    </a>
+                    <br>
+                    <a class='hex-icon' href="https://yelpper.herokuapp.com/" target="_blank">
+                        <i class="fab fa-github-alt social" title="Yelper github repo"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="entry photopost">
+                    <div class="hexa">
+                        <div class="hex1">
+                            <div class="hex2">
+                                <div class="im">
+                                    <img src="./assets/faceBell.png" alt="">
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="https://facebell.herokuapp.com/" title='herokuapp link' class="hex-title" target="_blank">
+                            Facebell (face-recognition app)
+                        </a>
+                        <br>
+                        <a class='hex-icon' href="https://github.com/reduncan/facebell" target="_blank">
+                            <i class="fab fa-github-alt social" title="Facebell github repo"></i>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="http://code.jquery.com/jquery-1.3.2.min.js"></script>
+    <script src="js/stepcaurosel.js"></script>
+    <script>
+        function myEmail(event) {
+            document.getElementById("gmail").style.visibility = "visible";
+        }
+        function removeEmail(event) {
+            document.getElementById("gmail").style.visibility = "hidden";
+        }
+
+        function copyEmail(event) {
+            event.preventDefault();
+            let selection = window.getSelection();
+            let txt = document.getElementById("gmail");
+            let range = document.createRange();
+            range.selectNodeContents(txt);
+            selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand("copy");
+            document.getElementById("alert1").style.display = 'block';
+        }
+
+        stepcarousel.setup({
+            galleryid: 'mygallery',
+            beltclass: 'belt',
+            panelclass: 'panel',
+            autostep: { enable: false, moveby: 1, pause: 3000 },
+            panelbehavior: { speed: 500, wraparound: false, wrapbehavior: 'slide', persist: true },
+            defaultbuttons: { enable: true, moveby: 1, leftnav: ['https://66.media.tumblr.com/54e22e55cc25c8b63e9016be0c475586/tumblr_inline_nqytet04bm1rshr70_540.png', -40, 10], rightnav: ['https://66.media.tumblr.com/54e22e55cc25c8b63e9016be0c475586/tumblr_inline_nqytet04bm1rshr70_540.png', 10, 120] },
+            statusvars: ['statusA', 'statusB'],
+            contenttype: ['inline']
+        })
+
+    </script>
+
+</body>
+
+</html>

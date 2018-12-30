@@ -41,7 +41,7 @@ body {
 .head {
     width: 100%;
     display: grid;
-    grid-template-rows: 180px 60px 30px 135px;
+    grid-template-rows: 180px 60px 30px 170px;
     grid-template-columns: 1fr;
     position: fixed;
     background-color: #f7f7f7;
@@ -164,12 +164,8 @@ h2 {
     justify-content: center;
 }
 
-.card{
-    display:none;
-}
-.posts{
-    display:none;
-}
+
+
 .icon:hover {
     transform: scale(.9);
     text-decoration: none;
@@ -221,6 +217,13 @@ strong{
     display: inherit;
     visibility: hidden;
 }
+.posts{
+    display:none;
+}
+.protect{
+    display:none;
+}
+
 
 
 @media only screen and (min-width: 300px){
@@ -282,6 +285,7 @@ strong{
 }
 
 
+
 @media only screen and (min-width: 600px) { 
     .head {
         display: grid;
@@ -338,7 +342,7 @@ strong{
     #gmail{
     visibility: hidden;
     grid-area: 1 / 5 / auto / auto;
-    height: 30px;
+    height: 25px;
     display: flex;
     align-self: center;
     padding: 5px;

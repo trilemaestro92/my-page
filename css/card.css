@@ -1,22 +1,66 @@
-@media only screen and (min-width: 600px) { 
 
-.protect{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 1px 1px 2px lightgrey;
-    display: grid;
-    padding: 100px 140px 140px 140px;
-    z-index: 5;  
-    padding-top: 80px;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-    background-image: url(http://static.tumblr.com/d40eae727a79de74c5b3c4cb5c8e9fd5/2icx37z/jJlo0ailq/tumblr_static_5fwjvs5jbosok04osco8kssos.png);
-}    
+@media only screen and (min-width: 300px){
+    .card{
+        display: none;
+    }
+    .protect{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 1px 2px lightgrey;
+        display: grid;
+        padding: 100px 140px 140px 140px;
+        z-index: 5;  
+        padding-top: 80px;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+        background-image: url(http://static.tumblr.com/d40eae727a79de74c5b3c4cb5c8e9fd5/2icx37z/jJlo0ailq/tumblr_static_5fwjvs5jbosok04osco8kssos.png);
+    }  
+    .mobile-card{
+        width: 320px;
+        background-color: #ffffff;
+        font-family: "Bit Light10 (sRB)";
+        border: 1px solid #cecece;
+        position: relative;
+        transform: translateY(-5%);
+        height: 100%;
+        box-shadow: 10px 10px 0 rgba(220,220,220,0.5);
+        display: grid;
+    }
+    .info-mobile{
+        float: left;
+        height: 100%;
+        width: 319px;
+    }
+    .mobile-htc{
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 10px;
+        color: #333;
+        border-bottom: 1px solid #cecece;
+        padding: 17px 20px 18px 20px;
+        text-align: left;
+    }
+    .mobile-htc b{
+        color: chocolate;
+        font-size: 12px;
+    }
+    .mobile-htc p{
+        font-size: 10px;
+        margin:4px 0px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) { 
+.mobile-card{
+    display:none;
+}
+
 .card{
     width: 740px;
     background-color: #ffffff;
-    font-family: pix;
     border: 1px solid #cecece;
     position: relative;
     top: 50%;

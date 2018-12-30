@@ -23,12 +23,12 @@
     /*posts container */
      
     .posts {
-        width:100%;
+        width: 100%;
         display: grid;
-        grid-template-columns: 388px;
-        margin:50px auto;
-       transform:scale(.74);
-        position:relative;
+        grid-template-columns: 330px;
+        margin: -45px -15px;
+        transform: scale(.74);
+        position: relative;
     }
     
     .im img {
@@ -129,11 +129,14 @@
     
     .hex-title{
         font-family: "Bit Light10 (sRB)";
-        font-size: 10.5px;
+        font-size: 14.5px;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 1px;
         color: #333;
+    }
+    .hex-icon .social{
+        font-size: 40px;
     }
 }
 @media only screen and (min-width: 600px){ 
@@ -163,6 +166,12 @@
 }
 .im:before {
     background:#f7f7f7de;
+}
+.hex-title{
+    font-size: 11.5px;
+}
+.hex-icon .social{
+    font-size: 22px;
 }
 
 } 

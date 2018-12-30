@@ -130,7 +130,6 @@ var stepcarousel={
 
 	stepTo:function(galleryid, pindex){ /*User entered pindex starts at 1 for intuitiveness. Internally pindex still starts at 0 */
 		var config=stepcarousel.configholder[galleryid]
-		console.log(config)
 		if (typeof config=="undefined"){
 			//alert("There's an error with your set up of Carousel Viewer \""+galleryid+ "\"!")
 			return
@@ -234,7 +233,6 @@ var stepcarousel={
 				var $target=$(e.target)
 				console.log($target)
 				if ($target.is('img') && $target.attr('data-over')){
-					console.log(parseInt($target.attr('data-moveto')))
 					stepcarousel.stepTo(config.galleryid, parseInt($target.attr('data-moveto'))+1)
 				}
 			})

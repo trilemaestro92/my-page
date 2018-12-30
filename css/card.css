@@ -22,11 +22,7 @@
         font-family: "Bit Light10 (sRB)";
         border: 1px solid #cecece;
         position: relative;
-<<<<<<< HEAD
-        /* transform: translateY(0%); */
-=======
-        transform: translateY(50%);
->>>>>>> d862476d3f07591b60bdb561d8c04b22bfde689a
+        transform: translateY(15%);
         height: 100%;
         box-shadow: 10px 10px 0 rgba(220,220,220,0.5);
         display: grid;

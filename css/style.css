@@ -134,7 +134,7 @@ header {
 }
 
 .social {
-    margin-top: 20px;
+    margin-top: 18px;
     margin-left: 10px; 
 }
 
@@ -227,29 +227,49 @@ strong{
 
 
 @media only screen and (min-width: 300px){
-    
+    .head {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 90px 50px 7px 70px;
+        grid-template-columns: 1fr;
+        position: fixed;
+        background-color: #f7f7f7;
+        position: sticky;
+        top: 0px;
+        margin-top: -16px;
+        z-index: 3;
+    }
+    .pic{
+        height:100px
+    }
     .tri {
-        height: 150px;
+        height: 85px;
+        padding: .3rem;
     }
     
     header {
-        margin: 30px 0 30px 20px;
-        line-height: 40px;
+        margin: 10px 0 0px 10px;
+        line-height: 25px;
         
+    }
+    .links{
+        height:35px;
     }
     
     .social {
         margin-left: 20px; 
+        font-size: 22px
     }
     
     
     h1 {
-        font-size: 2em;
+        font-size: 1.2em;
         justify-content: flex-start;
+        margin-bottom: 0px;
     }
     
     h2 {
-        font-size: 3em;
+        font-size: 1.3em;
         justify-content: flex-start;
     }
     
@@ -296,8 +316,10 @@ strong{
     header {
         grid-column: span 2;
         grid-row:1;
+        margin: 30px 0 30px 20px;
+        line-height: 40px;
     }
-
+   
     .bio-info {
         padding-top: 80px;
         justify-content: center;
@@ -396,7 +418,11 @@ strong{
       .sticky::after {
         z-index: 3;
       }
+      h1{
+          font-size: 2em;
+      }
       h2 {
+          font-size:3em;
           min-width: 600px;
       }
      
